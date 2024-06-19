@@ -2,7 +2,8 @@
 module.exports = {
   darkMode: 'class', // This tells Tailwind to apply dark mode using a class
   content: [
-    "/Users/Matt/Documents/Website builds/daisyui_testing/**/*.html", // This path covers all HTML files within the directory
+    "./**/*.html", // This path covers all HTML files within the directory and subdirectories
+    "./src/**/*.js", // Include JS files in the src directory if they contain Tailwind classes
     "./node_modules/flowbite/**/*.js" // Add this line for Flowbite
   ],
   theme: {
